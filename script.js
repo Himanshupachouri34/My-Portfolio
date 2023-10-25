@@ -96,3 +96,24 @@ document.querySelectorAll(".elem").forEach(function (elem) {
     });
   });
 });
+
+
+const toggleBtn = document.querySelector('#checkbox')
+
+
+
+toggleBtn.addEventListener('change', function(){
+  if (toggleBtn.checked) {
+    document.body.classList.add('dark-mode')
+  } else {
+    document.body.classList.remove('dark-mode')
+  }
+})
+
+
+
+
+var navigationBtn = document.querySelector('#navigation');
+navigationBtn.addEventListener('click', function (){
+  window.location.href = 'https://himanshupachouri34.github.io/QR-Generator/';
+})
