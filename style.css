@@ -158,7 +158,7 @@ body{
 
 .elem h1 {
     text-transform: uppercase;
-    font-size: 7.6vw;
+    font-size: 70px;
     opacity: .7;
 }
 
@@ -290,4 +290,8 @@ body{
 
 .dark-mode{
     background-color: darkcyan;
+}
+
+#myimg{
+    border-radius: 50%;
 }
