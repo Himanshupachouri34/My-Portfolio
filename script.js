@@ -115,5 +115,5 @@ toggleBtn.addEventListener('change', function(){
 
 var navigationBtn = document.querySelector('#navigation');
 navigationBtn.addEventListener('click', function (){
-  window.location.href = 'https://himanshupachouri34.github.io/QR-Generator/';
+  window.location.href = 'https://filmy-duniya-psi.vercel.app/';
 })
