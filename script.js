@@ -117,3 +117,18 @@ var navigationBtn = document.querySelector('#navigation');
 navigationBtn.addEventListener('click', function (){
   window.location.href = 'https://filmy-duniya-psi.vercel.app/';
 })
+
+var navigationBtn = document.querySelector('#netflix');
+navigationBtn.addEventListener('click', function (){
+  window.location.href = 'https://netflix-app-react-theta.vercel.app/';
+})
+
+var navigationBtn = document.querySelector('#google');
+navigationBtn.addEventListener('click', function (){
+  window.location.href = 'https://google-flame-delta.vercel.app/';
+})
+
+var navigationBtn = document.querySelector('#ecom');
+navigationBtn.addEventListener('click', function (){
+  window.location.href = 'https://ecom-animation-website.vercel.app/';
+})
